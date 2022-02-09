@@ -1,0 +1,110 @@
+<!-- 서브 콘텐츠 -->
+<div class="contents layer">
+
+    <!-- 타이틀 -->
+    <h2><em>레이어 관리</em></h2>
+
+    <!-- 검색 -->
+    
+    <div class="func init m">
+        <form [formGroup]="group">
+            <input type="text" formControlName="inqKeyword" placeholder="검색어를 입력하세요">
+            <button type="button" (click)="inquiry()"></button>
+
+            <button type="button" class="detail" (click)="showInquiryDiv = !showInquiryDiv"><span>상세</span></button>
+        </form>
+    </div>
+
+    <!-- 콘텐츠 박스 -->
+    
+    <div class="box">
+        <form [formGroup]="subGroup" #formDirective="ngForm" >
+            <!-- 상세검색 -->
+            <div class="serach" *ngIf="showInquiryDiv">
+                <h3><em>상세검색</em></h3>
+
+                <!-- 기본 3개씩 출력되도록 작업해 두었습니다. -->
+                <ul class="rowfull">
+                    <li>
+                        <label for="inqLayrNm"><em>레이어명</em></label>
+                        <input type="text" id="inqLayrNm" formControlName="inqLayrNm" placeholder="레이어명을 입력하세요">
+                    </li>
+                    <li>
+                        <label for="inqUseYn"><em>사용여부</em></label>
+                        <span>
+                            <input type="radio" id="inqUseYn" formControlName="inqUseYn" value="">
+                            <label for="inqUseYn"><span>전체</span></label>
+                        </span>
+                        <span class="mr1rem ml1rem">
+                            <input type="radio" id="inqUseYn1" formControlName="inqUseYn" value="Y">
+                            <label for="inqUseYn1"><span>사용</span></label>
+                        </span>
+                        <span>
+                            <input type="radio" id="inqUseYn2" formControlName="inqUseYn" value="N">
+                            <label for="inqUseYn2"><span>미사용</span></label>
+                        </span>
+                    </li>
+                    <li>
+                        <label for=""><em>아이콘 등록</em></label>
+                        <span>
+                            <input type="checkbox" id="inqIcon" formControlName="inqIcon" checked>
+                            <label for="inqIcon"><span></span></label>
+                        </span>
+                    </li>
+                </ul>
+
+                <div class="btn-group init tac mt3rem">
+                    <button type="button" class="btn-active" (click)="subInquiry()"><span>검색</span></button>
+                    <button type="button" class="btn-reset" (click)="subReset()"><span>초기화</span></button>
+                </div>
+            </div>
+        </form>
+
+        <!-- 검색 -->
+        <div class="func init m">
+            <!-- <a href="" class="btn-management"><span>분류체계관리</span></a> -->
+            <a [routerLink]="['/sys/add-layer/']" class="btn-regist"><span>등록</span></a>
+            <button type="button" class="btn-delete" (click)="deletion()"><span>선택삭제</span></button>
+        </div>
+
+        
+        <table class="tac fixed">
+            <caption></caption>
+            <colgroup>
+                <col width="10%">
+                <col />
+                <col width="10%">
+                <col width="10%">
+                <col width="20%">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>
+                        <input type="checkbox" id="chekboxAll" (change)="onCheckboxAllChange($event)" >
+                        <label for="chekboxAll"><span></span></label>
+                    </th>
+                    <th>레이어 명</th>
+                    <th>아이콘</th>
+                    <th>사용여부</th>
+                    <th>생성일자</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of inquiryList; let i = index">
+                    <td>
+                        <input type="checkbox" [id]="item.id" [value]="item.id" [(ngModel)]="item.checked" (change)="onCheckboxChange($event)">
+                        <label for="{{item.id}}"><span></span></label>
+                    </td>
+                    <td class="cp"><a (click)="detail(item.id)" class="ellipsis" title="{{item.layrNm}}">{{item.layrNm}}</a></td>
+                    <td><img src="/assets/img/front/icon_building.png" alt="아이콘 보기"></td>
+                    <td>{{item.useYn}}</td>
+                    <td>{{item.crtYmd |date:'yyyy-Mm-dd'}} {{item.crtDt}}</td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </div>
+
+
+
+</div>

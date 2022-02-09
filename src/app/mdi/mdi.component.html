@@ -1,0 +1,30 @@
+<!-- 해더 -->
+<div id="sub" class="header">
+    <div class="inner init m">
+      <div class="quick init">
+        <ng-container *ngFor="let mdi of mdiMenuArray">
+          <a (click)="mdiDisplayEvent(mdi)" class="quick-log">
+              <span>{{mdi.name}}</span>
+          </a>      
+        </ng-container>
+      </div>
+    </div>
+    
+    <div id="mdiHeader">
+      <router-outlet></router-outlet>
+      <div *ngFor="let _mdi of mdiMenuArray; let i = index">
+        <div [ngClass]="mdiStatus == _mdi.id ? 'db' : 'dn'" [id]="_mdi.path">
+          {{mdiStatus}} == {{_mdi.id}}
+          <sgcnc-router-outlet (activate)="onActivate(_mdi.id)" [name]="_mdi.id"></sgcnc-router-outlet>
+        </div>
+      </div>
+      <!-- 
+       <div [ngClass]="mdiStatus == '1' ? 'db' : 'dn'" id="1"><router-outlet (activate)="onActivate($event,'1')" name="1"></router-outlet></div>
+       <div [ngClass]="mdiStatus == '2' ? 'db' : 'dn'" id="2"><router-outlet (activate)="onActivate($event,'2')" name="2"></router-outlet></div>
+       <div [ngClass]="mdiStatus == '3' ? 'db' : 'dn'" id="3"><router-outlet (activate)="onActivate($event,'3')" name="3"></router-outlet></div>
+       <div [ngClass]="mdiStatus == '4' ? 'db' : 'dn'" id="4"><router-outlet (activate)="onActivate($event,'4')" name="4"></router-outlet></div>
+       <div [ngClass]="mdiStatus == '5' ? 'db' : 'dn'" id="5"><router-outlet (activate)="onActivate($event,'5')" name="5"></router-outlet></div>
+      -->
+    </div>
+    
+</div>

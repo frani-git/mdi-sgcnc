@@ -1,0 +1,31 @@
+<!-- 해더 -->
+<div id="sub" class="header">
+    <div class="inner init m">
+      <h1 class="logo init m"><a href=""></a><em>Mdi Test</em></h1>
+      <!-- 
+      <div class="quick init">
+        <a href="" class="quick-print"><span>출력</span></a>
+        <a href="" class="quick-send"><span>전송</span></a>
+        <a href="" class="quick-log"><span>로그조회</span></a>
+      </div>
+      -->
+      <div class="member">
+        <ul>
+          <li class="init">
+            <dl>
+              <dt>현재일시</dt>
+              <dd>{{ rxTime | date: 'yyyy년 MM월 dd일 hh:mm:ss a' }}</dd>
+            </dl>
+          </li>
+          <li class="init">            
+          </li>
+        </ul>
+      </div>
+      
+    </div>
+    
+    <!-- 서브 레이아웃에만 출력됩니다. -->
+    <a *ngIf="activateId == 'sub'" href="" class="home" title="메인으로 바로가기"><span>메인화면</span></a>
+</div>
+  
+  

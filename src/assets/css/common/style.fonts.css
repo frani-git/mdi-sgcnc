@@ -1,0 +1,1496 @@
+@charset "utf-8";
+
+/*
+* --------------------------------------------------------------------------
+* descript : 폰트 가져오기
+* --------------------------------------------------------------------------
+* author : Yoodaekyung
+* update : 2020-07-30
+* --------------------------------------------------------------------------
+*/
+
+/*
+* ==========================================================================
+* Table of Contents
+* ==========================================================================
+* 1.0 - 구글폰트
+* 2.0 - 로컬 폰트
+* 3.0 - 웹 폰트
+* --------------------------------------------------------------------------
+*/
+
+/* --------------------------------------------------------------------------
+1.0 https://fonts.google.com/
+-------------------------------------------------------------------------- */
+
+/* --------------------------------------------------------------------------
+2.0 로컬 폰트 가져오기
+-------------------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------------------
+3.0 웹 폰트 가져오기
+-------------------------------------------------------------------------- */
+
+/* 본고딕 font-family: 'Noto Sans KR', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+/* Montserrat font-family: 'Montserrat', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Open Sans font-family: 'Open Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+
+
+
+/* --------------------------------------------------------------------------
+4.0 문자별(유니코드) 폰트 지정
+
+1. 특수문자 범위: U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E
+2. 영문 범위: U+0041-005A(대문자), U+0061-007A(소문자)
+3. 숫자 범위: U+0030-0039
+4. 전체 : U+0020-007E
+-------------------------------------------------------------------------- */
+
+
+
+
+/* 
+****************************
+2. 영문
+****************************
+*/
+
+
+/* cyrillic-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 100;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUOjIg1_i6t8kCHKm459WxZqh7p29NNpQ.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* cyrillic */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 100;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUOjIg1_i6t8kCHKm459WxZqh7g29NNpQ.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* vietnamese */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 100;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUOjIg1_i6t8kCHKm459WxZqh7r29NNpQ.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* latin-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 100;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUOjIg1_i6t8kCHKm459WxZqh7q29NNpQ.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* latin */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 100;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUOjIg1_i6t8kCHKm459WxZqh7k29M.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* cyrillic-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 200;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZBg_z8fZwnCo.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* cyrillic */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 200;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZBg_z-PZwnCo.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* vietnamese */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 200;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZBg_z8_ZwnCo.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* latin-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 200;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZBg_z8vZwnCo.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* latin */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 200;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZBg_z_PZw.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* cyrillic-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 300;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZYgzz8fZwnCo.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* cyrillic */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 300;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZYgzz-PZwnCo.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* vietnamese */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 300;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZYgzz8_ZwnCo.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* latin-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 300;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZYgzz8vZwnCo.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* latin */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 300;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZYgzz_PZw.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* cyrillic-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 400;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUQjIg1_i6t8kCHKm459WxRxC7mw9c.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* cyrillic */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 400;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUQjIg1_i6t8kCHKm459WxRzS7mw9c.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* vietnamese */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 400;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUQjIg1_i6t8kCHKm459WxRxi7mw9c.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* latin-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 400;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUQjIg1_i6t8kCHKm459WxRxy7mw9c.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* latin */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 400;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUQjIg1_i6t8kCHKm459WxRyS7m.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* cyrillic-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 500;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZOg3z8fZwnCo.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* cyrillic */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 500;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZOg3z-PZwnCo.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* vietnamese */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 500;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZOg3z8_ZwnCo.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* latin-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 500;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZOg3z8vZwnCo.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* latin */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 500;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZOg3z_PZw.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* cyrillic-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 600;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZFgrz8fZwnCo.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* cyrillic */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 600;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZFgrz-PZwnCo.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* vietnamese */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 600;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZFgrz8_ZwnCo.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* latin-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 600;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZFgrz8vZwnCo.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* latin */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 600;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZFgrz_PZw.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* cyrillic-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 700;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZcgvz8fZwnCo.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* cyrillic */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 700;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZcgvz-PZwnCo.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* vietnamese */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 700;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZcgvz8_ZwnCo.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* latin-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 700;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZcgvz8vZwnCo.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* latin */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 700;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZcgvz_PZw.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* cyrillic-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 800;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZbgjz8fZwnCo.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* cyrillic */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 800;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZbgjz-PZwnCo.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* vietnamese */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 800;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZbgjz8_ZwnCo.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* latin-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 800;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZbgjz8vZwnCo.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* latin */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 800;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZbgjz_PZw.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* cyrillic-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 900;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZSgnz8fZwnCo.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* cyrillic */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 900;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZSgnz-PZwnCo.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* vietnamese */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 900;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZSgnz8_ZwnCo.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* latin-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 900;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZSgnz8vZwnCo.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* latin */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 900;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZSgnz_PZw.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* cyrillic-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 200;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_aZA3gTD_u50.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* cyrillic */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 200;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_aZA3g3D_u50.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* vietnamese */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 200;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_aZA3gbD_u50.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* latin-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 200;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_aZA3gfD_u50.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* latin */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 200;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_aZA3gnD_g.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* cyrillic-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 300;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_cJD3gTD_u50.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* cyrillic */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 300;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_cJD3g3D_u50.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* vietnamese */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 300;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_cJD3gbD_u50.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* latin-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 300;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_cJD3gfD_u50.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* latin */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 300;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_cJD3gnD_g.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* cyrillic-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 400;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* cyrillic */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 400;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* vietnamese */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 400;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* latin-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 400;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* latin */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 400;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* cyrillic-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 500;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_ZpC3gTD_u50.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* cyrillic */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 500;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_ZpC3g3D_u50.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* vietnamese */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 500;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_ZpC3gbD_u50.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* latin-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 500;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_ZpC3gfD_u50.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* latin */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 500;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_ZpC3gnD_g.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* cyrillic-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 600;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_bZF3gTD_u50.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* cyrillic */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 600;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_bZF3g3D_u50.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* vietnamese */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 600;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_bZF3gbD_u50.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* latin-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 600;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_bZF3gfD_u50.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* latin */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 600;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_bZF3gnD_g.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* cyrillic-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 700;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gTD_u50.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* cyrillic */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 700;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3g3D_u50.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* vietnamese */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 700;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gbD_u50.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* latin-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 700;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gfD_u50.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* latin */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 700;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gnD_g.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* cyrillic-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 800;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_c5H3gTD_u50.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* cyrillic */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 800;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_c5H3g3D_u50.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* vietnamese */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 800;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_c5H3gbD_u50.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* latin-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 800;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_c5H3gfD_u50.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* latin */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 800;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_c5H3gnD_g.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* cyrillic-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 900;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_epG3gTD_u50.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* cyrillic */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 900;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_epG3g3D_u50.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* vietnamese */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 900;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_epG3gbD_u50.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* latin-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 900;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_epG3gfD_u50.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+/* latin */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 900;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_epG3gnD_g.woff2) format('woff2');
+unicode-range:U+0041-005A, U+0061-007A;
+}
+    
+    
+
+
+/* 
+****************************
+1. 특수문자
+3. 숫자 범위
+****************************
+*/
+
+/* cyrillic-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 300;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKWyV9hmIqOjjg.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* cyrillic */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 300;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKWyV9hvIqOjjg.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* greek-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 300;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKWyV9hnIqOjjg.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* greek */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 300;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKWyV9hoIqOjjg.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* vietnamese */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 300;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKWyV9hkIqOjjg.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* latin-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 300;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKWyV9hlIqOjjg.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* latin */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 300;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKWyV9hrIqM.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* cyrillic-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 400;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem6YaGs126MiZpBA-UFUK0Udc1UAw.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* cyrillic */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 400;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem6YaGs126MiZpBA-UFUK0ddc1UAw.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* greek-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 400;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem6YaGs126MiZpBA-UFUK0Vdc1UAw.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* greek */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 400;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem6YaGs126MiZpBA-UFUK0adc1UAw.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* vietnamese */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 400;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem6YaGs126MiZpBA-UFUK0Wdc1UAw.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* latin-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 400;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem6YaGs126MiZpBA-UFUK0Xdc1UAw.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* latin */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 400;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem6YaGs126MiZpBA-UFUK0Zdc0.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* cyrillic-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 600;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKXGUdhmIqOjjg.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* cyrillic */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 600;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKXGUdhvIqOjjg.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* greek-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 600;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKXGUdhnIqOjjg.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* greek */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 600;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKXGUdhoIqOjjg.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* vietnamese */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 600;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKXGUdhkIqOjjg.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* latin-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 600;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKXGUdhlIqOjjg.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* latin */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 600;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKXGUdhrIqM.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* cyrillic-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 700;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKWiUNhmIqOjjg.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* cyrillic */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 700;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKWiUNhvIqOjjg.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* greek-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 700;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKWiUNhnIqOjjg.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* greek */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 700;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKWiUNhoIqOjjg.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* vietnamese */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 700;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKWiUNhkIqOjjg.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* latin-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 700;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKWiUNhlIqOjjg.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* latin */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 700;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKWiUNhrIqM.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* cyrillic-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 800;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKW-U9hmIqOjjg.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* cyrillic */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 800;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKW-U9hvIqOjjg.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* greek-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 800;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKW-U9hnIqOjjg.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* greek */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 800;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKW-U9hoIqOjjg.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* vietnamese */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 800;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKW-U9hkIqOjjg.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* latin-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 800;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKW-U9hlIqOjjg.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* latin */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: italic;
+font-weight: 800;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKW-U9hrIqM.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* cyrillic-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 300;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN_r8OX-hpOqc.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* cyrillic */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 300;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN_r8OVuhpOqc.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* greek-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 300;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN_r8OXuhpOqc.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* greek */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 300;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN_r8OUehpOqc.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* vietnamese */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 300;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN_r8OXehpOqc.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* latin-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 300;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN_r8OXOhpOqc.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* latin */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 300;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN_r8OUuhp.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* cyrillic-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 400;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFWJ0bbck.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* cyrillic */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 400;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFUZ0bbck.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* greek-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 400;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFWZ0bbck.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* greek */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 400;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFVp0bbck.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* vietnamese */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 400;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFWp0bbck.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* latin-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 400;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFW50bbck.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* latin */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 400;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFVZ0b.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* cyrillic-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 600;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UNirkOX-hpOqc.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* cyrillic */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 600;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UNirkOVuhpOqc.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* greek-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 600;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UNirkOXuhpOqc.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* greek */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 600;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UNirkOUehpOqc.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* vietnamese */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 600;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UNirkOXehpOqc.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* latin-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 600;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UNirkOXOhpOqc.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* latin */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 600;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UNirkOUuhp.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* cyrillic-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 700;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN7rgOX-hpOqc.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* cyrillic */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 700;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN7rgOVuhpOqc.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* greek-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 700;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN7rgOXuhpOqc.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* greek */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 700;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN7rgOUehpOqc.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* vietnamese */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 700;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN7rgOXehpOqc.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* latin-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 700;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN7rgOXOhpOqc.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* latin */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 700;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* cyrillic-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 800;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN8rsOX-hpOqc.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* cyrillic */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 800;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN8rsOVuhpOqc.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* greek-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 800;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN8rsOXuhpOqc.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* greek */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 800;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN8rsOUehpOqc.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* vietnamese */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 800;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN8rsOXehpOqc.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* latin-ext */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 800;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN8rsOXOhpOqc.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+/* latin */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 800;
+font-display: swap;
+src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN8rsOUuhp.woff2) format('woff2');
+unicode-range:U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
