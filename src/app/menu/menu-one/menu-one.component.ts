@@ -11,6 +11,9 @@ import { HttpService } from 'src/app/service/http.service';
 })
 export class MenuOneComponent implements OnInit {
 
+// 컴포넌트 단위 중복값 체크 Test
+typeC: any = '1';
+
 // Declaration
 showInquiryDiv: boolean = false;
 inquiryList: any[] = [];
@@ -52,7 +55,9 @@ constructor(
 
 ngOnInit(): void {
   this.inquiry();
+  alert('컴포넌트 단위로 중복값이 전역으로 영향을 주는 테스트\n변수 명칭 : typeC' + ' , 값 : ' + this.typeC );
 }
+
 
 // Search
 inquiry(): void {
@@ -130,7 +135,7 @@ async awaitDeletion() {
 
 
 ngOnDestroy(): void {
-
+  alert('생명주기 파괴');
 }
 
 }

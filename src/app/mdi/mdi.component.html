@@ -1,30 +1,48 @@
 <!-- 해더 -->
 <div id="sub" class="header">
-    <div class="inner init m">
-      <div class="quick init">
-        <ng-container *ngFor="let mdi of mdiMenuArray">
-          <a (click)="mdiDisplayEvent(mdi)" class="quick-log">
-              <span>{{mdi.name}}</span>
-          </a>      
-        </ng-container>
+  <div class="inner init m">
+    <div class="quick init">
+      <ng-container *ngFor="let mdi of mdiMenuArray">
+        <a (click)="mdiDisplayEvent(mdi)" class="quick-log">
+          <span>{{ mdi.name }}</span>
+        </a>
+        <a (click)="mdiDisplayClose(mdi)">
+          <span>X</span>
+        </a>
+      </ng-container>
+    </div>
+  </div>
+
+  <div id="mdiHeader">
+    <div [ngClass]="mdiStatus == 0 ? 'db' : 'dn'" #startup>
+      <ng-template *ngComponentOutlet="startupComponent"></ng-template>
+    </div>
+
+    <div *ngFor="let _mdi of mdiMenuArray; let i = index">
+      <div [ngClass]="mdiStatus == _mdi.id ? 'db' : 'dn'" [id]="_mdi.id">
+        <ng-template *ngComponentOutlet="getComponentType(stashComponentList, _mdi.path)"></ng-template>
       </div>
     </div>
-    
-    <div id="mdiHeader">
-      <router-outlet></router-outlet>
-      <div *ngFor="let _mdi of mdiMenuArray; let i = index">
-        <div [ngClass]="mdiStatus == _mdi.id ? 'db' : 'dn'" [id]="_mdi.path">
-          {{mdiStatus}} == {{_mdi.id}}
-          <sgcnc-router-outlet (activate)="onActivate(_mdi.id)" [name]="_mdi.id"></sgcnc-router-outlet>
-        </div>
-      </div>
-      <!-- 
-       <div [ngClass]="mdiStatus == '1' ? 'db' : 'dn'" id="1"><router-outlet (activate)="onActivate($event,'1')" name="1"></router-outlet></div>
-       <div [ngClass]="mdiStatus == '2' ? 'db' : 'dn'" id="2"><router-outlet (activate)="onActivate($event,'2')" name="2"></router-outlet></div>
-       <div [ngClass]="mdiStatus == '3' ? 'db' : 'dn'" id="3"><router-outlet (activate)="onActivate($event,'3')" name="3"></router-outlet></div>
-       <div [ngClass]="mdiStatus == '4' ? 'db' : 'dn'" id="4"><router-outlet (activate)="onActivate($event,'4')" name="4"></router-outlet></div>
-       <div [ngClass]="mdiStatus == '5' ? 'db' : 'dn'" id="5"><router-outlet (activate)="onActivate($event,'5')" name="5"></router-outlet></div>
+
+    <!-- 
+      <ng-template dynamic-ref1></ng-template>
+      <ng-template dynamic-ref2></ng-template>
+      <ng-template dynamic-ref3></ng-template>
+      <ng-template dynamic-ref4></ng-template>
+      <ng-template dynamic-ref5></ng-template>
       -->
-    </div>
-    
+
+    <!-- 
+      <div [ngClass]="mdiStatus == _mdi.id ? 'db' : 'dn'" [id]="_mdi.path">
+          <ng-template dynamic-ref1></ng-template>
+      </div>
+      <div [ngClass]="mdiStatus == _mdi.id ? 'db' : 'dn'" [id]="_mdi.path">
+        <ng-template dynamic-ref2></ng-template>  
+      </div>
+      
+      <ng-template dynamic-ref3></ng-template>
+      <ng-template dynamic-ref4></ng-template>
+      <ng-template dynamic-ref5></ng-template>
+      -->
+  </div>
 </div>

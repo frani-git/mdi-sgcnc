@@ -2,7 +2,7 @@ import { ComponentFactoryResolver, Injectable, ComponentRef } from "@angular/cor
 
 @Injectable()
 export class ComponentFactoryService {
-    private componentRef: ComponentRef<any>;
+    private componentRef: ComponentRef<{}>;
     constructor(private componentFactoryResolver: ComponentFactoryResolver) {
     }
     

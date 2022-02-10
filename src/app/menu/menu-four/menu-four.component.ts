@@ -12,4 +12,8 @@ export class MenuFourComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  ngOnDestroy(): void {
+    alert('생명주기 파괴');
+  }
+
 }

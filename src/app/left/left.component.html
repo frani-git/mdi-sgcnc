@@ -2,7 +2,7 @@
 <div class="nav">
     <ul>
         <ng-container *ngFor="let menu of menus ; let index = index;">
-            <li>
+            <li *ngIf="menu.id != '0'">
                 <!-- (click)="componentMdi(menu)" -->
                 <button type="button" class="cp" (click)="componentMdi(menu)"><span>{{menu.name}}</span></button>
             </li>

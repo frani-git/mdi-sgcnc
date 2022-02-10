@@ -5,6 +5,7 @@ import { COMPOSITION_BUFFER_MODE, FormsModule, ReactiveFormsModule } from '@angu
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DynamicDirective1, DynamicDirective2, DynamicDirective3, DynamicDirective4, DynamicDirective5 } from './directive/dynamic.directive';
 import { SgcncOutletDirective } from './directive/sgcnc.outlet.directive';
 import { HeaderComponent } from './header/header.component';
 import { LeftComponent } from './left/left.component';
@@ -19,6 +20,7 @@ import { CommonService } from './service/common.service';
 import { ComponentFactoryService } from './service/component-factory.service';
 import { HttpService } from './service/http.service';
 import { MdiService } from './service/mdi.service';
+import { DynamicComponent, UnknownDynamicComponent } from './dynamic/dynamic.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +35,12 @@ import { MdiService } from './service/mdi.service';
     MenuFiveComponent,
     MdiComponent,
     SgcncOutletDirective,
+    DynamicDirective1,
+    DynamicDirective2,
+    DynamicDirective3,
+    DynamicDirective4,
+    DynamicDirective5,
+    UnknownDynamicComponent,
   ],
   imports: [
     BrowserModule,
@@ -45,6 +53,14 @@ import { MdiService } from './service/mdi.service';
     CommonModule,
     FormsModule,
     ReactiveFormsModule,
+  ],
+  entryComponents: [
+    MenuOneComponent,
+    MenuTwoComponent,
+    MenuThreeComponent,
+    MenuFourComponent,
+    MenuFiveComponent,
+    UnknownDynamicComponent,
   ],
   providers: [
     { provide: COMPOSITION_BUFFER_MODE, useValue: false}, ComponentFactoryService, MdiService, CommonService, HttpService,
